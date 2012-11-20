@@ -1,0 +1,81 @@
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html {
+	background: #777;
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: 1px solid black;
+
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 13px;
+	color: #444;
+}
+
+button {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 20px auto;
+
+	font-size: 15px;
+}
+
+#wrapper {
+	width: 300px;
+	margin: auto;
+}
+
+.image {
+	width: 280px;
+	height: 175px;
+	margin-top: 10px;
+}
+
+.image.retina {
+	background-size: 280px 175px !important;
+}
+
+.survey-panel {
+	display: none;
+	width: 300px;
+	padding: 10px;
+	border: 1px solid white;
+
+	background: #ddd;
+	border-radius: 10px;
+}
+
+.success {
+	color: green;
+}
+
+#results p.success {
+	padding: 5px;
+	border: 1px solid green;
+
+	background: #d6f1d6;
+	border-radius: 10px;
+}
+
+#results h1 {
+	padding: 5px;
+	border: 1px solid #555;
+
+	background: #777;
+	color: white;
+	text-align: left;
+	border-radius: 5px;
+}

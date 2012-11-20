@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"device": {
+			"name": "device",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "device",
+			"order": 0
+		},
+		"image1": {
+			"name": "image1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image1",
+			"order": 1
+		},
+		"image2": {
+			"name": "image2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image2",
+			"order": 2
+		},
+		"image3": {
+			"name": "image3",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image3",
+			"order": 3
+		},
+		"image4": {
+			"name": "image4",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image4",
+			"order": 4
+		}
+	}
+}
